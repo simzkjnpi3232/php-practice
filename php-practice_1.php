@@ -5,7 +5,14 @@ $name = '島崎';
 echo '私の名前は「' . $name . '」です。';
 
 // Q2 四則演算
+<?php
+$num1 = 5;
+$num2 = 4;
+$num3 = 2;
 
+$num = ($num1 * $num2);
+
+echo $num ."\n".($num / $num3);
 
 // Q3 日付操作
 
