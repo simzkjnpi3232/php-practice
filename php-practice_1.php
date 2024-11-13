@@ -15,7 +15,11 @@ $num = ($num1 * $num2);
 echo $num ."\n".($num / $num3);
 
 // Q3 日付操作
+<?php
 
+date_default_timezone_set('Asia/Tokyo');
+
+echo '現在時刻は、'. date("Y年m月d日 h時i分s秒") . 'です。';
 
 // Q4 条件分岐-1 if文
 
