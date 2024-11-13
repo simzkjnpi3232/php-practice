@@ -105,7 +105,29 @@ $taxInPrice = calcTaxInPrice($price);
 echo $price . "円の商品の税込み価格は" . $taxInPrice . "円です。";
 
 // Q12 関数とif文
+<?php
 
+function distinguishNum($number) {
+    if ($number % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+$number = 11;
+if (distinguishNum($number)) {
+    echo "$number は偶数です。" ."\n";
+} else {
+    echo "$number は奇数です。" ."\n";
+}
+
+$number = 24;
+if (distinguishNum($number)) {
+    echo "$number は偶数です。";
+} else {
+    echo "$number は奇数です。";
+}
 
 // Q13 関数とswitch文
 
