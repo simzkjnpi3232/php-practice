@@ -32,7 +32,12 @@ if ($device == 'windows'|| $device == 'mac') {
 }
 
 // Q5 条件分岐-2 三項演算子
+<?php
 
+$age = 18;
+$message = ($age >= 18) ? '成人です。' : '未成人です。';
+
+echo $message;
 
 // Q6 配列
 
