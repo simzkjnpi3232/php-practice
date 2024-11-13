@@ -22,7 +22,14 @@ date_default_timezone_set('Asia/Tokyo');
 echo '現在時刻は、'. date("Y年m月d日 h時i分s秒") . 'です。';
 
 // Q4 条件分岐-1 if文
+<?php
 
+$device = 'windows';
+if ($device == 'windows'|| $device == 'mac') {
+    echo '使用OSは、' . "$device" . 'です。';
+} else {
+    echo 'どちらでもありません。';
+}
 
 // Q5 条件分岐-2 三項演算子
 
