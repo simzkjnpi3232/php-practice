@@ -92,7 +92,17 @@ hello('わたなべ');
 hello('ふじなわ');
 
 // Q11 関数-2
+<?php
 
+function calcTaxInPrice($price) {
+    $price = $price * 1.1;
+    return $price;
+  }
+
+$price = 1000;
+$taxInPrice = calcTaxInPrice($price);
+
+echo $price . "円の商品の税込み価格は" . $taxInPrice . "円です。";
 
 // Q12 関数とif文
 
