@@ -109,25 +109,14 @@ echo $price . "円の商品の税込み価格は" . $taxInPrice . "円です。"
 
 function distinguishNum($number) {
     if ($number % 2 == 0) {
-        return true;
+        return $number . "は偶数です。" ."\n";
     } else {
-        return false;
+        return $number . "は奇数です。" ."\n";
     }
 }
 
-$number = 11;
-if (distinguishNum($number)) {
-    echo "$number は偶数です。" ."\n";
-} else {
-    echo "$number は奇数です。" ."\n";
-}
-
-$number = 24;
-if (distinguishNum($number)) {
-    echo "$number は偶数です。";
-} else {
-    echo "$number は奇数です。";
-}
+echo distinguishNum(11);
+echo distinguishNum(24);
 
 // Q13 関数とswitch文
 <?php
