@@ -97,7 +97,12 @@ $yamada = new Student(120, '山田');
 $yamada->attend('PHP');
 
 // Q5 定義済みクラス
+<?php
 
+$date = new DateTime();
+
+$date->modify("-1 month");
+echo $date->format('Y-m-d') ."\n";
 
 ?>
 
