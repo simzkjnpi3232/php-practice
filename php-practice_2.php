@@ -38,6 +38,9 @@ $personalInfos = [
 
 echo $personalInfos[1]['name'] . 'の電話番号は' . $personalInfos[1]['tel'] . 'です。' ."\n";
 
+foreach ($personalInfos as $key => $value) {
+    echo $key + 1 . '番目の' . $value['name'] . 'のメールアドレスは' . $value['mail'] . 'で、電話番号は' . $value['tel'] . 'です。' ."\n";
+}
 
 // Q3 オブジェクト-1
 
