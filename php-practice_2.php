@@ -38,14 +38,6 @@ $personalInfos = [
 
 echo $personalInfos[1]['name'] . 'の電話番号は' . $personalInfos[1]['tel'] . 'です。' ."\n";
 
-$ageList = [25, 30, 18];
-
-foreach ($ageList as $key => $age) {
-$personalInfos[$key]['age'] = $age;
-}
-
-var_dump($personalInfos);
-
 
 // Q3 オブジェクト-1
 
