@@ -42,9 +42,9 @@ echo $message;
 // Q6 配列
 <?php
 
-$prefecture = ['東京都', '埼玉県', '栃木県', '千葉県', '群馬県', '茨城県', '神奈川県'];
+$prefectures = ['東京都', '埼玉県', '栃木県', '千葉県', '群馬県', '茨城県', '神奈川県'];
 
-echo $prefecture[2] . 'と' . $prefecture[3] .'は関東地方の都道府県です。';
+echo $prefectures[2] . 'と' . $prefectures[3] .'は関東地方の都道府県です。';
 
 // Q7 連想配列-1
 <?php
