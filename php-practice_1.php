@@ -86,11 +86,11 @@ foreach ($array as $key => $value) {
 
 function hello($name)
 {
-    echo $name .'さん、こんにちは。' ."\n";
+    return $name .'さん、こんにちは。' ."\n";
 }
 
-hello('わたなべ');
-hello('ふじなわ');
+echo hello('わたなべ');
+echo hello('ふじなわ');
 
 // Q11 関数-2
 <?php
