@@ -101,15 +101,12 @@ $yamada->attend('PHP');
 
 $date = new DateTime();
 
-$date->modify("-1 month");
-echo $date->format('Y-m-d') ."\n";
+echo $date->modify("-1 month")->format('Y-m-d') ."\n";
 
 $date1 = new DateTime('2024-11-14');
 $date2 = new DateTime('1992-4-25');
 
-$diff = $date1->diff($date2);
-
-echo $diff->format('あの日から%a日経過しました。');
+echo $diff = $date1->diff($date2)->format('あの日から%a日経過しました。');
 
 ?>
 
