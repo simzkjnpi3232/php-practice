@@ -95,15 +95,14 @@ echo hello('ふじなわ');
 // Q11 関数-2
 <?php
 
-function calcTaxInPrice($price) {
-    $price = $price * 1.1;
-    return $price;
+function calcTaxInPrice($money) {
+    return $money * 1.1;
   }
 
-$price = 1000;
-$taxInPrice = calcTaxInPrice($price);
+$money = 1000;
+$taxInPrice = calcTaxInPrice($money);
 
-echo $price . "円の商品の税込み価格は" . $taxInPrice . "円です。";
+echo $money . "円の商品の税込み価格は" . $taxInPrice . "円です。";
 
 // Q12 関数とif文
 <?php
