@@ -61,11 +61,11 @@ foreach ($array as $key => $value) {
 $array = array('東京都'=>'新宿区', '神奈川県'=>'横浜市', '千葉県'=>'千葉市', '埼玉県'=>'さいたま市', '栃木県'=>'宇都市', '群馬県'=>'前橋市', '茨城県'=>'水戸市');
 
 foreach ($array as $prefecture => $city) {
-    if ($prefecture == '栃木県') {
-        break;
-        }
+    if ($prefecture == '埼玉県') {
         echo "$prefecture" . 'の県庁所在地は、' . "$city" . 'です。' ."\n";
+        break;
     }
+}
 
 // Q9 連想配列-3
 <?php
