@@ -95,8 +95,8 @@ echo hello('ふじなわ');
 // Q11 関数-2
 <?php
 
-function calcTaxInPrice($money) {
-    return $money * 1.1;
+function calcTaxInPrice($price) {
+    return $price * 1.1;
   }
 
 $money = 1000;
